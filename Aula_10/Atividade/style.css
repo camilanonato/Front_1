@@ -1,0 +1,59 @@
+*{
+    padding:0;
+    margin:0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    top: 12px;
+}
+
+p{
+    top: 12px;
+    text-align: justify;
+}
+
+body {
+    background-color: rgb(180, 119, 7);
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 60px;
+
+}
+
+
+.card {
+background-color: rgb(164, 164, 66);
+width: 400px;
+border-radius: 12px;
+margin-top: 200px;
+overflow: hidden;
+position: relative;
+}
+
+.card .cartaz {
+    width: 100%;
+    border-radius: 12px;
+    height: 250px;
+}
+
+.card .profile {
+    width: 140px;
+    height: 140px;
+    margin: -70px auto 12px;
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card .favorito{
+width: 40px;
+position: absolute;
+top: 12px;
+left: 12px;
+
+}
+

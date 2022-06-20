@@ -1,0 +1,16 @@
+h1{
+    background-color: red;
+    text-align: center;
+    display: inline;
+}
+
+p{
+    background-color: aqua;
+
+}
+
+a{
+background-color: brown;
+text-align: center;
+display: block;
+}

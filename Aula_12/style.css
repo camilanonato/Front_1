@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.main-content{
+
+    background-image: url();
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    padding: 60px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-content div{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.main-content div h1{
+
+    color: white;
+    font-size: 72px;
+
+}
