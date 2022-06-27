@@ -1,0 +1,31 @@
+@keyframes fade-down {
+    
+    0% {
+
+        top: -100px;
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.animation-fade-down{
+
+    animation-name: fade-down;
+    animation-fill-mode: forwards;
+}
+
+header.animation-fade-down {
+    animation-duration: 2s;
+}
+
+.banner-section .logo{
+    animation-duration: 1s;
+    animation-delay: 1s;
+
+}
+
